@@ -7,6 +7,7 @@ import   DataBindObject   from '../src/components/viewData/DataBindObject'
 import   DataViewList   from '../src/components/viewData/DataViewList'
 import   UserDetails   from '../src/components/props/UserDetails'
 import   UseStateTask   from '../src/components/useState/UseStateTask'
+import   ButtonBar   from '../src/components/props-event/ButtonBar'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <DataBindObject/> */}
       {/* <DataViewList/> */}
       {/* <UserDetails/> */}
-      <UseStateTask/>
+      {/* <UseStateTask/> */}
+      <ButtonBar/>
     </div>
   );
 }

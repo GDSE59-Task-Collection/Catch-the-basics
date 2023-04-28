@@ -1,0 +1,12 @@
+.btn-view{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.btn-stack{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
