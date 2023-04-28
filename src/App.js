@@ -6,6 +6,7 @@ import  { DataBindToView }  from '../src/components/viewData/DataBindToView'
 import   DataBindObject   from '../src/components/viewData/DataBindObject'
 import   DataViewList   from '../src/components/viewData/DataViewList'
 import   UserDetails   from '../src/components/props/UserDetails'
+import   UseStateTask   from '../src/components/useState/UseStateTask'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <DataBindToView/> */}
       {/* <DataBindObject/> */}
       {/* <DataViewList/> */}
-      <UserDetails/>
+      {/* <UserDetails/> */}
+      <UseStateTask/>
     </div>
   );
 }
