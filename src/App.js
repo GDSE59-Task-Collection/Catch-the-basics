@@ -5,6 +5,7 @@ import  HelloReactNormalFunction  from '../src/components/helloReact/HelloReactN
 import  { DataBindToView }  from '../src/components/viewData/DataBindToView'
 import   DataBindObject   from '../src/components/viewData/DataBindObject'
 import   DataViewList   from '../src/components/viewData/DataViewList'
+import   UserDetails   from '../src/components/props/UserDetails'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <HelloReactNormalFunction/> */}
       {/* <DataBindToView/> */}
       {/* <DataBindObject/> */}
-      <DataViewList/>
+      {/* <DataViewList/> */}
+      <UserDetails/>
     </div>
   );
 }
