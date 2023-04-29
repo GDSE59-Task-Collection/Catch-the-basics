@@ -8,6 +8,7 @@ import   DataViewList   from '../src/components/viewData/DataViewList'
 import   UserDetails   from '../src/components/props/UserDetails'
 import   UseStateTask   from '../src/components/useState/UseStateTask'
 import   ButtonBar   from '../src/components/props-event/ButtonBar'
+import   {UseEffectTask}   from '../src/components/useEffect/UseEffectTask'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <DataViewList/> */}
       {/* <UserDetails/> */}
       {/* <UseStateTask/> */}
-      <ButtonBar/>
+      <UseEffectTask/>
+      {/* <ButtonBar/> */}
     </div>
   );
 }
